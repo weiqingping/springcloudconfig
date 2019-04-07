@@ -12,6 +12,7 @@ spring:
     username: root
     password: abc@123
   jpa:
+    database: mysql
     properties:
       hibernate:
         hbm2ddl:
