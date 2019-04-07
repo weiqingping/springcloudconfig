@@ -15,6 +15,7 @@ spring:
     database: mysql
     properties:
       hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
         hbm2ddl:
           # 自动创建表
           auto: update
